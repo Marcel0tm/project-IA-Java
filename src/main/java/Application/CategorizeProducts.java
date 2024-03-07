@@ -38,6 +38,8 @@ public class CategorizeProducts {
         """.formatted(categorias);
 
         requests(user, system);
+
+        sc.close();
     }
 
     public static void requests(String user, String system) {
